@@ -1,0 +1,68 @@
+/* General */
+.customNav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+/* Jumbotron  */
+.jumbotron {
+    background-image: url(../images/portfolio-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+
+  .banner-text{
+    color: black;
+  }
+
+  .text-blue{
+    color: #213F99;
+  }
+
+  .imageContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-fluid{
+    max-width: 70%; 
+    height: auto;
+  }
+
+  .topWhiteSpace{
+    height: 20%;
+    background-color: red;
+  }
+
+  .sectionHeading{
+    font-weight: 800;
+    font-size: 3rem;
+  }
+
+  .text-align-center{
+    text-align: center;
+  }
