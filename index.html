@@ -37,9 +37,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#my-works-section">My Works</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Skills</a>
-          </li>
           <!--Dropdown link-->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -89,10 +86,51 @@
             <br>
             I am a hard worker and a good team player who is motivated by a desire to gain employment experience, skills and knowledge that will help to launch my career on this field.
           </p>
+          <!--Button Collapse for My skills and Education section-->
+          <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Main skills</a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Education & Certification</button>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <!--Card for My Skills details-->
+                <div class="card card-body my-skills-card">
+                  <h3>My Skills</h3>
+                  <ul>
+                    <li>HTML and CSS</li>
+                    <li>Git and GitHub</li>
+                    <li> User experience design</li>
+                    <li>JavaScript</li>
+                    <li>Third-party APIs (such as jQuery and Bootstrap)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <!--Card for Education details-->
+                <div class="card card-body my-education-card">
+                  <h3>Education & Certification</h3>
+                  <ul>
+                    <li>
+                      BSc in Computing and Information Technology
+                      Anglia Ruskin University - Peterborough
+                      2016
+                    </li>
+                    <li>
+                      BSc in Multimedia Arts and Sciences
+                      Mapua Institute of Technology - Manila
+                      2013
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
-    
     <!--My Works Section-->
     <div class="my-works" id="my-works-section">
       <section class="row justify-content-center">
@@ -181,6 +219,7 @@
     </div> 
   </div>
   <!-- Footer -->
+  
 
   <!-- JavaScript link for the navigation-->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

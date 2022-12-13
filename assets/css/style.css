@@ -97,13 +97,14 @@ body{
   height: 20%;
 }
 
+
 /*My Work Section*/
 .text-align-center{
   text-align: center;
 }
 
 #my-works-section{
-  padding-top: 50px;
+  padding-top: 75px;
 }
 
 /*Cards for each projects*/
@@ -216,5 +217,20 @@ border-bottom: #fff solid 1px;
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   opacity: 1;
+}
+
+/*My Skills Section and Education*/
+.my-skills-card, .my-education-card{
+  background-color: var(--light-pink);
+}
+
+.btn-primary{
+  background-color: var(--cavern-pink);
+  border-color: var(--navy-blue);
+  color: var(--navy-blue);
+}
+
+.btn-primary:hover {
+  background-color: var(--light-pink);
 }
 
