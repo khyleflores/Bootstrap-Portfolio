@@ -242,9 +242,21 @@ border-bottom: #fff solid 1px;
 footer{
   width: 100%;
   margin-top: 5rem;
-  padding: 1rem;
   font-family: var(--font);
   background-color: var(--lavender-blush);
   font-weight: bold;
 }
 
+/*Add radius on font awesome i*/
+.footer-links i{
+  color: var(--basic-text);
+  border: 1px solid var(--basic-text);
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+}
+
+/*Hover effect on hyperlinks*/
+.footer-links i:hover{
+  background-color: var(--cavern-pink);
+}
