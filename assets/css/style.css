@@ -8,6 +8,7 @@
   --navy-blue: #213F99;
   --basic-text: #515151;
   --card-text: #fff;
+  --lavender-blush: #fff0f5;
   --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -234,3 +235,13 @@ border-bottom: #fff solid 1px;
   background-color: var(--light-pink);
 }
 
+
+/*Footer properties*/
+footer{
+  width: 100%;
+  margin-top: 5rem;
+  padding: 1rem;
+  font-family: var(--font);
+  background-color: var(--lavender-blush);
+  font-weight: bold;
+}
