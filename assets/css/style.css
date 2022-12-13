@@ -260,3 +260,11 @@ footer{
 .footer-links i:hover{
   background-color: var(--cavern-pink);
 }
+
+/* media query for less than col-lg screens */
+@media screen and (max-width: 1200px) {
+  /*About me title to go to center for aesthetic when on smaller screen*/
+  .about-me h2{
+    text-align: center;
+  }
+}
